@@ -63,7 +63,7 @@ body {
 }
 
 .bg-image {
-  background-image: url('backgroundimage.jpg');
+  background-image: url('./assets/backgroundimage.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
