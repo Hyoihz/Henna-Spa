@@ -1,30 +1,79 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>My Website</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-</head>
-<body>
-  <div class="bg-image"></div>	
-<nav>	
-  <a href="website.html" class="logo">
-    <img src="logohennaspa.png" alt="Logo">
-  </a>
-  <ul>
-    <li><a href="#"><span class="fas fa-info-circle"></span> About Us</a></li>
-    <li><a href="#"><span class="fas fa-hand-holding-heart"></span> Services</a></li>
-    <li><a href="#"><span class="fas fa-users"></span> Therapists</a></li>
-    <li><a href="#"><span class="fas fa-envelope"></span> Contacts</a></li>
-    <li><a href="#"><span class="fas fa-user"></span> Admin</a></li>
-  </ul>
-</nav>
-
-	<div class="welcome-area">
-		<h1>Welcome to Henna Spa</h1>
-		<p>Where we offer a range of luxurious treatments to help you unwind and rejuvenate. Our experienced therapists are dedicated to providing you with an exceptional experience, using only the highest quality products and techniques. Whether you're looking for a relaxing massage, a revitalizing facial, or a full body treatment, we have something to suit your needs. So why not treat yourself today and let us help you escape the stresses of daily life? We look forward to welcoming you to our tranquil oasis soon.
-		</p>
-	</div>
-
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin=""
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300&amp;display=swap"
+            rel="stylesheet"
+        />
+        <link href="./style.css" rel="stylesheet" />
+        <title>Home Page</title>
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="container">
+            <div class="wrapper">
+                <div class="top-group">
+                    <header class="menu">
+                        <img
+                            class="menu__logo"
+                            src="./assets/logohennaspa.png"
+                            alt="logo"
+                        />
+                        <nav class="menu__nav">
+                            <ul class="menu__list">
+                                <li class="menu__item">About Us</li>
+                                <li class="menu__item">Services</li>
+                                <li class="menu__item">Therapists</li>
+                                <li class="menu__item">Contacts</li>
+                            </ul>
+                        </nav>
+                        <button class="menu__reservation-btn btn">
+                            Reservation
+                        </button>
+                    </header>
+                    <section class="details">
+                        <div class="details__content">
+                            <div class="details__left">
+                                <h1 class="details__title">
+                                    Welcome to Henna Spa!
+                                </h1>
+                                <p class="details__description">
+                                    Where we offer a range of luxurious
+                                    treatments to help you unwind and
+                                    rejuvenate. Our experienced therapists are
+                                    dedicated to providing you with an
+                                    exceptional experience, using only the
+                                    highest quality products and techniques.
+                                    Whether you're looking for a relaxing
+                                    massage, a revitalizing facial, or a full
+                                    body treatment, we have something to suit
+                                    your needs. So why not treat yourself today
+                                    and let us help you escape the stresses of
+                                    daily life? We look forward to welcoming you
+                                    to our tranquil oasis soon.
+                                </p>
+                                <button class="details__services-btn btn">
+                                    Explore Services
+                                </button>
+                            </div>
+                            <div class="details__right">
+                                <span class="placeholder"
+                                    >Placeholder for img/video</span
+                                >
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
